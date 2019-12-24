@@ -1,0 +1,126 @@
+body{
+  background-color: hsl(204, 43%, 93%);
+  font-family: 'Karla';
+}
+
+h3{
+  color:  hsl(71, 73%, 54%)
+}
+
+h2{
+  color: hsl(179, 62%, 43%);
+}
+
+p{
+  margin-bottom: 0;
+}
+
+footer{
+  text-align: center;
+}
+
+.content{
+  margin: 10% auto;
+  border-radius: 20px;
+  width: 45%;
+}
+
+.top{
+  padding : 7% 15%;
+  background-color: white;
+  border-radius: 10px 10px 0 0px;
+  box-shadow: 4px 4px 10px lightgrey;
+}
+
+.btn{
+  background-color: hsl(71, 73%, 54%);
+  padding : 10px 80px;
+  margin-top:30px;
+}
+
+#matter{
+
+}
+
+.b{
+  padding:5% 6%;
+  background-color: hsl(179, 62%, 33%);
+  border-radius: 0 0 0 10px;
+  color: white;
+  height: 255px;
+  box-shadow: 1px 1px 5px grey;
+
+}
+.container{
+  padding: 0;
+  margin : 0;
+}
+
+.b2{
+  padding:5% 6%;
+  padding-right: 7%;
+  background-color: hsl(179, 72%, 43%);
+  border-radius: 0 0 10px 0px;
+  padding-bottom: 7.4%;
+  height: 255px;
+  box-shadow: 1px 1px 5px grey;
+}
+
+.why-us{
+  color: white;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.dollar{
+  font-size: 30px;
+  font-weight: 700;
+  padding-right: 5%;
+}
+
+#para{
+  color: hsl(218, 22%, 67%);
+  line-height: 3rem;
+  padding-top: 20px;
+}
+
+#join-community-text{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#bottom-text{
+  color: white;
+  font-size: 1.5rem;
+  padding-top:5%;
+}
+
+#monthly{
+  margin-top:0;
+}
+
+@media screen and (max-width: 1200px) {
+  .content{
+    margin: 10% auto;
+    border-radius: 20px;
+    width: 45%;
+  }
+
+  .b{
+    padding:5% 6%;
+    background-color: hsl(179, 62%, 33%);
+    color: white;
+    height: 245px;
+    border-radius: 0;
+    box-shadow: 1px 1px 5px grey;
+  }
+
+  .b2{
+    padding:5% 6%;
+    background-color: hsl(179, 72%, 43%);
+    border-radius: 0 0 10px 10px;
+    padding-bottom: 7.4%;
+    height: 245px;
+    box-shadow: 1px 1px 5px grey;
+  }
+}
