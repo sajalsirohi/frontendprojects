@@ -1,0 +1,168 @@
+
+
+html {
+    background: hsl(257, 40%, 49%) url(../images/bg-desktop.svg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+@media screen and (max-width: 1024px){
+  html {
+      background: hsl(257, 40%, 49%) url(../images/bg-mobile.svg) no-repeat center top fixed;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+  }
+  .con{
+    flex-direction: column;
+  }
+
+  .text-content{
+    padding-top:0;
+    padding: 0;
+    color: white;
+    padding-top : 100px;
+    text-align: center;
+  }
+  header img{
+    max-width: 50%;
+  }
+
+  .top{
+    height : 100px;
+    margin-bottom : 2%;
+  }
+
+   img {
+    width: 100%;
+    height: auto;
+  }
+  .text-content h1,h3{
+    text-align: left;
+  }
+  .contain-logo{
+    text-align: center;
+  }
+  .con2{
+    display: flex;
+    justify-content: space-between;
+    max-width: 200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+}
+body {
+height : 0px;}
+
+header{
+  padding-left: 50px;
+  height : 150px;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+
+h1{
+  font-weight: 900;
+  font-size: 4rem;
+  font-family : 'Poppins';
+}
+
+h3{
+  font-weight: 100;
+  line-height: 3rem;
+  padding-top : 20px;
+  margin-bottom: 30px;
+  font-family: 'Open Sans';
+}
+
+.con{
+  width : 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-left : 50px;
+  margin-right : 50px;
+}
+
+.btn{
+ color: violet;
+ border-radius: 50px;
+ height: 50px;
+ width : 200px;
+ background: white;
+ box-shadow: 1px 1px 10px ;
+ font-size : 2rem;
+ margin-top : 30px;
+}
+
+.img-holder{
+  display : inline-flex;
+}
+
+.top .container{
+  height : 120px;
+}
+
+a{
+  text-decoration: none;
+  color : white;
+}
+
+a:hover{
+  text-decoration: none;
+  color : grey;
+}
+
+footer{
+  text-align: center;
+  margin-top : 100px;
+}
+
+
+.content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.top .container{
+  display: flex;
+}
+
+.symbols{
+  font-size: 40px;
+  color : white;
+}
+
+
+
+@media screen and (min-width: 1024px){
+
+  .text-content{
+    padding-left: 50px;
+    color: white;
+    padding-top : 100px;
+    display: relative;
+    text-align: center;
+  }
+  .text-content h1,h3{
+    text-align: left;
+  }
+  .con img {
+    width: 70%;
+    height: auto;
+  }
+  .con2{
+    display: flex;
+    justify-content: space-between;
+    max-width: 200px;
+    position: relative;
+    margin-left: auto;
+    margin-right : 5%;
+  }
+}
