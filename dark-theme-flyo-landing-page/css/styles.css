@@ -1,0 +1,434 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+/* Generic */
+
+* {
+ font-family: 'Open Sans', sans-serif;
+ box-sizing: border-box;
+ color: white;
+}
+
+body {
+  margin: 0;
+  background: hsl(218, 28%, 13%);
+
+  position: relative;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  padding-top: 75px;
+  padding-bottom: 30px;
+  /* justify-content: space-between; */
+}
+header{
+  background: hsl(217, 28%, 15%);
+}
+
+nav {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  float : right;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color:  white;
+  font-family: 'Raleway';
+  vertical-align: middle;
+}
+
+nav a:hover{
+  text-decoration: none;
+  color: grey;
+}
+
+h5{
+  font-weight: 600;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+h6{
+  font-weight: 100;
+  font-size: 10px;
+}
+
+form{
+  display: inline-block;
+  margin-right: 5%;
+}
+
+.top img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 100%;
+  height: auto;
+  max-width:  700px;
+}
+
+.top h1{
+  font-family: 'Raleway';
+  font-weight: 700;
+  line-height: 5.5rem
+}
+
+.top h3{
+  font-family: 'Raleway';
+  font-weight: 400;
+  line-height: 3.5rem
+}
+
+.navbar{
+  margin-bottom: 0;
+  padding-top: 1%;
+}
+
+.container{
+  display: block;
+}
+
+.top-content{
+  max-width: 670px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5%;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn{
+  border-radius: 30px;
+  width: 22%;
+  background-image: linear-gradient(to right, hsl(176, 68%, 64%) 0%, hsl(198, 60%, 50%) 100%);
+  min-width: 275px;
+}
+
+.top-content h3{
+  margin-top: 5%;
+}
+
+.top-content .btn{
+  margin-top: 6%;
+}
+
+.top-section{
+  padding-bottom: 80px;
+  background: hsl(217, 28%, 15%);
+}
+
+.test-card:nth-child(1)::before {
+    content: '';
+    position: absolute;
+    width: 55px;
+    height: 50px;
+    top: -2rem;
+    left: -.5rem;
+    z-index: -1;
+    background: url("images/bg-quotes.png");
+    background-repeat: no-repeat;
+}
+
+
+.four_card_section::before{
+    content: '';
+    position: absolute;
+    bottom: 65%;
+    left: 0;
+    width: 100%;
+    height: 449px;
+    background-image: url(images/profile-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+}
+}
+
+.four_card_section .row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.four_card_section{
+  background: hsl(218, 28%, 13%);
+}
+
+.card img{
+  height: 70px;
+  z-index: 0
+}
+
+.card{
+  max-width: 350px;
+  text-align: center;
+  line-height: 2.5rem;
+  margin : 50px;
+}
+
+.top{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stay_prod_content h1{
+  line-height: 5rem;
+  font-weight: 900;
+}
+
+.stay_prod_content {
+  padding-right: 5%;
+  padding-top: 5%;
+  margin-left: 5%;
+}
+
+.stay_prod_content p {
+  margin : 7% 0;
+  font-size: 18px;
+}
+
+
+.stay_productive img{
+  width: 100%;
+  height: auto;
+}
+
+.stay_productive{
+  padding-bottom: 5%;
+  background: hsl(218, 28%, 13%);
+}
+
+.arrow-img img{
+  width: 18px;
+  padding-bottom: 3px;
+}
+
+hr{
+  border-top: 1px solid hsl(176, 68%, 37%);
+  margin-top: 7px;
+  width : 185px;
+  margin-left: 0;
+}
+
+.profile-img img{
+  border-radius: 50%;
+  width:50px;
+  margin-right: 12px;
+  float : left;
+}
+
+.test-card{
+  max-width: 350px;
+  background-color: hsl(219, 30%, 18%);
+  border-radius: 10px;
+  padding: 2%;
+}
+
+.test-card p{
+  margin-bottom : 25px;
+}
+
+.reviews{
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  background: hsl(218, 28%, 13%);
+  position: relative;
+}
+
+.reviews.container{
+  background: hsl(218, 28%, 13%);
+
+}
+
+.info-box {
+  background-color: hsl(217, 28%, 15%);
+  box-shadow: 1px 1px 5px black;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding : 50px 0 ;
+  z-index : 10;
+}
+
+.info-box h2{
+ font-weight: 600;
+}
+
+.info-box p{
+  padding : 30px 50px;
+  z-index: 3;
+}
+
+.foot{
+  padding-top : 250px;
+  background-color: hsl(216, 53%, 9%);
+  padding-bottom : 100px;
+  z-index: -10  ;
+}
+
+.get-info{
+  margin-bottom: -11rem;
+  z-index : 10;
+}
+
+.foot-section{
+  display : flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.location {
+  max-width: 350px;
+}
+
+.information{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.contact-us{
+  display : flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.contact-us a {
+  color : white;
+}
+
+.about-us{
+  display : flex;
+  flex-direction: column;
+  height : 150px;
+  justify-content: space-between;
+}
+
+.icons-foot{
+  margin-right: 10px;
+  padding-bottom : 60px;
+}
+
+.about-us a{
+  color : white;
+}
+
+.footimg{
+  margin-right: 10px;
+}
+
+
+#fylo-works{
+  font-size: 18px;
+  color : hsl(176, 68%, 37%);
+}
+
+#input-form{
+  background-color: white;
+  border-radius:  25px;
+  min-width : 400px;
+  height : 45px;
+  padding-left: 30px;
+}
+
+#foot-logo{
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 991px) {
+  .four_card_section .row{
+    flex-direction: column;
+    justify-content:  space-between;
+}
+
+  .four_card_section .card{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .reviews{
+    flex-direction: vertical;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .info-box{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .stay_productive .container{
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .stay_prod_content{
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 2rem;
+    padding-left: 5%;
+    margin-top: 5%;
+  }
+
+  .test-card{
+    margin : 30px auto;
+    padding :  20px;
+  }
+
+  .stay_prod_content p{
+    margin : 4% 0;
+    font-size: 18px;
+  }
+
+  .illusimg{
+    margin-left: 5%;
+    margin-top : 5%
+  }
+
+  form{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .foot-section{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .location {
+    margin : 20px;
+  }
+  .about-us {
+    margin : 20px;}
+
+  .contact-us{
+    margin : 20px;
+  }
+
+  .information{
+    margin: 20px;
+  }
+
+  #input-form{
+    margin-bottom: 30px;
+  }
+}
