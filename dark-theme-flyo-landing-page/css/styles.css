@@ -155,7 +155,7 @@ form{
     background-position: center;
     z-index: -1;
 }
-}
+
 
 .four_card_section .row{
   display: flex;
@@ -262,7 +262,7 @@ hr{
   margin-right: auto;
   text-align: center;
   padding : 50px 0 ;
-  z-index : 10;
+  position : relative;
 }
 
 .info-box h2{
