@@ -103,7 +103,7 @@ footer{
   .content{
     margin: 10% auto;
     border-radius: 20px;
-    width: 45%;
+    min-width: 300px;
   }
 
   .b{
