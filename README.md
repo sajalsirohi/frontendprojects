@@ -10,3 +10,5 @@ Here I will be uploading the front end templates I practice. Please feel free to
 --> https://sajalsirohi.github.io/frontendprojects/huddle_landing_page
 
 --> https://sajalsirohi.github.io/frontendprojects/price-component-layout-toggle
+
+--> https://sajalsirohi.github.io/frontendprojects/clipboard-landing-page
