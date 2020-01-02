@@ -176,7 +176,6 @@ img{
   left: -15%;
   width : 100%;
   height : auto;
-  /* clip: shape(top, right, bottom, left); NB 'rect' is the only available option */
 }
 
 #devices{
