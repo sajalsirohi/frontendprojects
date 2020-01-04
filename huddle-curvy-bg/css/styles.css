@@ -264,6 +264,7 @@ input{
   border : 1px solid hsl(322, 100%, 66%);
   color : hsl(322, 100%, 66%);
   box-shadow: 0.11px 0.1px 3px hsl(322, 100%, 66%);
+  min-width: 130px;
 }
 
 #try-free:hover{
@@ -334,9 +335,21 @@ img{
   }
 
 
+.top-sec{
+  margin-top : 4rem;
+}
+
   .grow{
     flex-direction: column-reverse;
     align-items: center;
+  }
+
+  .logo-con{
+    margin-right : 2rem;
+  }
+
+  .head-con{
+    margin : 3rem 2rem;
   }
 
   .flow-sec{
