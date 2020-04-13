@@ -15,4 +15,4 @@ Here I will be uploading the front end templates I practice. Please feel free to
 
 - [curvy background](https://sajalsirohi.github.io/frontendprojects/huddle-curvy-bg)
 
-- [neomorphism signin signup](https://sajalsirohi.github.io/frontendprojects/neomorphism-signin-signup)
+- [neomorphism signin signup](https://sajalsirohi.github.io/frontendprojects/neomorphism-signin-signup/signup.html)
