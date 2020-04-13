@@ -1,0 +1,248 @@
+body{
+  font-family: 'Inria Sans', sans-serif;
+  color: #31456A;
+  display: block;
+  overflow: hidden;
+}
+
+.section{
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background: #E0EAF1;
+  width: 100%;
+}
+
+
+.image-holder{
+  height: 100%;
+  width:60%;
+}
+
+.text{
+  text-align: center;
+  position: relative;
+  top:300px;
+}
+
+.text h1{
+  font-size: 100px;
+  font-style: italic;
+  font-family: 'Ultra', serif;
+}
+
+canvas{
+  position: absolute;
+  z-index: 0;
+}
+
+.login-holder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:40%;
+
+}
+
+.login-box{
+  height:90%;
+  width: 75%;
+  border-radius: 63px;
+  background: #E0EAF1;
+  box-shadow:  9px 9px 18px #ced7de,
+             -9px -9px 18px #f2fdff;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.login-signin-form{
+  width: 75%;
+  height: 90%;
+  position: relative;
+  perspective: 800px;
+  transform-style: preserve-3d;
+  transition: transform 0.3s;
+}
+
+.login{
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  backface-visibility: hidden;
+}
+
+.welcome-text-box h1{
+  font-weight: 700;
+}
+
+.welcome-text-box{
+  margin-top: 15%;
+}
+
+.form-control{
+  border: 0;
+  border-radius: 10px;
+  background: #E0EAF1;
+  box-shadow:  9px 9px 18px #ced7de,
+             -9px -9px 18px #f2fdff;
+  height:3.5rem;
+}
+
+.form-{
+  margin-top: 5rem;
+}
+
+.form-group{
+  margin-bottom: 3rem;
+}
+
+.form-group label{
+  position: relative;
+  left:10px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+a{
+  color: #31456A;
+  float: right;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.btn{
+  width:100%;
+  background-color: #31456A;
+  color:white;
+  height: 3.5rem;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-weight: 500;
+  box-shadow:  9px 9px 18px #ced7de;
+}
+
+.btn-text{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.button-holder{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  flex-direction: column;
+}
+
+span.OR{
+  text-align: center;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fa{
+  height: 3rem;
+  width: 3rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+background: #E0EAF1;
+box-shadow:  7px 7px 14px #ced7de,
+             -7px -7px 14px #f2fdff;
+}
+
+.form-control:active, .fa:active{
+  border-radius: 30px;
+  background: #E0EAF1;
+  box-shadow: inset 11px 11px 22px #bec7cd,
+              inset -11px -11px 22px #ffffff;
+}
+
+p{
+  margin-bottom: 0;
+}
+
+.bottom-text a{
+  margin-top: 0;
+  margin-left: 5px;
+  font-weight: 900;
+}
+
+.bottom-text{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.sign-up-box{
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  backface-visibility: hidden;
+}
+
+.fa-chevron-left:before{
+  font-size: 2.5rem;
+}
+
+.back-button{
+  height:3.5rem;
+}
+
+.fas{
+  display: block;
+}
+
+.sign-up-box{
+  display: none;
+}
+
+.sign-up-box a{
+  float: left;
+}
+
+.sign-up-head{
+  margin-top: 20px;
+}
+
+.form-group-signup{
+  margin-bottom: 1.4rem;
+}
+
+
+.form-group label{
+  position: relative;
+  left:10px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 900px) {
+
+  .login-holder{
+    width: 100%;
+  }
+  .image-holder{
+    width: 0%;
+    display: none;
+  }
+}
