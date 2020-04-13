@@ -236,7 +236,7 @@ p{
   font-size: 14px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1100px) {
 
   .login-holder{
     width: 100%;
